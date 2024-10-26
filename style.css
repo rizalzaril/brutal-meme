@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    67deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(45, 189, 253, 1) 100%
+  );
+}
+
+.header h1 {
+  justify-content: center;
+  display: block;
+}
+
+.justify-center {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: aliceblue;
+  padding: 12px;
+  border-radius: 8px;
+  width: 50%;
+  flex-direction: column;
+}
+
+.card .card-body {
+  padding: 12px;
+  flex-direction: column;
+}
+
+.img-content {
+  width: 60%;
+  display: none;
+}
+
+.button1 {
+  padding: 12px;
+  background-color: rgb(3, 3, 58);
+  border-radius: 8px;
+  border: none;
+  color: aqua;
+}
+
+.mt-1 {
+  margin-top: 12px;
+}
+
+.mt-2 {
+  margin-top: 24px;
+}
+
+.button2 {
+  padding: 12px;
+  background-color: rgb(3, 3, 58);
+  border-radius: 8px;
+  border: none;
+  color: aqua;
+}
+
+div {
+  margin-top: 12px;
+}
+
+.shape1 {
+  width: 100px;
+  height: 50px;
+  background-color: chocolate;
+  border-radius: 0px 100px 100px 0px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
+.content {
+  display: flex;
+  gap: 24px;
+}
+
+p {
+  color: black;
+}
+
+h1 {
+  color: black;
+}
